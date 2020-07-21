@@ -1,13 +1,9 @@
-var nombre ='Lenika', apellido = 'Guerrero';
+var nombre = 'Lenika', apellido = 'Guerrero';
+var edad = 24;
 
-var nombreMayusculas=nombre.toUpperCase();
-var apellidoMinusculas=apellido.toLowerCase();
+edad = '24 años';
 
-var primeraLetraDelNombre=nombre.charAt(0);
-var cantidadDeLetrasDelNombre=nombre.length;
+console.log('Hola ' + nombre + ' ' + apellido);
+console.log('Tengo ' + edad);
 
-var nombreCompleto = `${nombre} ${apellido.toUpperCase()}`;
-
-var str= nombre.substr(1,2);
-
-var ultimaLetra= nombre.charAt((nombre.length)-1);
+var peso = 60;
