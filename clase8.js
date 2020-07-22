@@ -25,4 +25,4 @@ function cumpleanos(persona){
 		...persona,
 		edad:persona.edad+1
 	}
-}
+}//Devuelve un nuevo objeto como parametro
