@@ -39,7 +39,6 @@ async function obtenerPersonajes(){
 	}catch(id){
 		onError(id);
 	}
-	
 }
 
 obtenerPersonajes();
