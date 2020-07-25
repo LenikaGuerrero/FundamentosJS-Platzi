@@ -23,7 +23,6 @@ function obtenerPersonaje(id){
 function onError(id){
 	console.log(`Sucedio un error al obtener el personaje ${id}`);
 }
-//request en paralelo
 var ids =[1,2,3,4,5,6,7]
 
 //Retorna un array modificado a partir de id
