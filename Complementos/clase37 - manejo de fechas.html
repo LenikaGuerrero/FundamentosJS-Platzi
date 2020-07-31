@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es" >
+<meta charset="utf-8">
+<head>
+	<title> Clase 37 - Manejo de Fechas</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function diasEntreFechas(fecha1,fecha2){
+			const unDia=1000*60*60*24 //Milisegundos en un Dia
+			const diferencia=Math.abs(fecha1-fecha2)//Cantidad de Milisegundos entre una fecha y otra
+			return Math.floor(diferencia/unDia)
+		}
+
+		const hoy =new Date() // Fecha actual por defecto
+		const nacimiento = new Date(1996,7,1) // Recibe el año, mes y dia
+
+	</script>
+</body>
+</html>
